@@ -1,0 +1,71 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(46, 49, 51);
+}
+main {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+header {
+  position: sticky;
+  color: antiquewhite;
+  height: auto;
+  width: 100vw;
+  background: url(banner/earth.jpg);
+  background-size: cover;
+}
+#navbar-toggle-cbox {
+  display: none;
+}
+#navbar-toggle-cbox:checked ~ .collapse {
+  display: block;
+}
+
+.dropdown {
+  color: aliceblue;
+}
+
+.dropdown-menu {
+  background-color: grey;
+  color: aliceblue;
+}
+
+h3 {
+  color: antiquewhite;
+}
+#aboutme {
+  color: antiquewhite;
+}
+
+.avatar {
+  width: 150px;
+  align-self: auto;
+  border-radius: 50%;
+}
+.row {
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-body {
+  background-color: gray;
+}
+.card-text {
+  background-color: grey;
+}
+
+section li {
+  list-style-type: none;
+}
+
+#contacts-me {
+  list-style: square;
+}
+h4 {
+  color: antiquewhite;
+  text-decoration: underline;
+}
+footer li {
+  color: antiquewhite;
+}
