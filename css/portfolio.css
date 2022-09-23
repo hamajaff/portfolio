@@ -1,7 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: rgb(46, 49, 51);
+  background-color: rgb(0, 0, 0);
 }
 main {
   display: flex;
@@ -11,7 +11,7 @@ main {
 header {
   position: sticky;
   color: antiquewhite;
-  height: auto;
+  height: 10vh;
   width: 100vw;
   background: url(banner/earth.jpg);
   background-size: cover;
@@ -47,6 +47,10 @@ h3 {
 .row {
   margin-right: auto;
   margin-left: auto;
+}
+.projekt-container {
+  position: relative;
+  top: 100px;
 }
 .card-body {
   background-color: gray;
